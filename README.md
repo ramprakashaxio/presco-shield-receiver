@@ -6,7 +6,7 @@
    - [2.2 BLE Central & Data Parsing](#22-ble-central--data-parsing)  
    - [2.3 Wi-Fi & Cloud Forwarding](#23-wi-fi--cloud-forwarding)  
    - [2.4 Read/Write Interface & Automation](#24-readwrite-interface--automation)  
-   - [2.5 Monitoring, Logging & OTA](#25-monitoring-logging--ota)  
+   - [2.5 Monitoring, Logging & OTA](#25-monitoring-logging-)  
 
 
 ## 2. Receiver Integration & Data Forwarding
@@ -41,13 +41,11 @@
 - [ ] **Automation & Scheduling**
   - Schedule periodic tasks (nightly data sync, firmware checks); implement accordingly.
 
-### 2.5 Monitoring, Logging & OTA
+### 2.5 Monitoring, Logging 
 - [ ] **Local Logging**
-  - Store received data (e.g., SD or flash) as backup.
+  - Store received data (e.g., flash) as backup.
 - [ ] **System Health**
   - Monitor ESP32 resource usage (memory, CPU) and connectivity status (BLE, Wi-Fi); alert if issues.
-- [ ] **OTA Updates**
-  - Implement OTA mechanism for ESP32 firmware (HTTP or cloud-based).
 - [ ] **Diagnostics**
   - Provide logs accessible via serial or network for troubleshooting.
 
